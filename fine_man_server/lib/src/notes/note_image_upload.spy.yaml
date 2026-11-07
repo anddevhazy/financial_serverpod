@@ -1,0 +1,6 @@
+### Permission to upload one note image. Upload the file with [description],
+### then pass [path] to `noteImages.confirmUpload`.
+class: NoteImageUpload
+fields:
+  description: String
+  path: String

@@ -1,0 +1,10 @@
+### A table as it travels between the app and the server. [id] is chosen by the
+### app, so tables keep their ids through backups and imports.
+class: LedgerTableData
+fields:
+  id: String
+  name: String
+  createdAt: DateTime
+  columns: LedgerColumns
+  notes: List<LedgerNote>
+  listOrder: List<String>

@@ -1,0 +1,11 @@
+### One piece of a table's notes: a run of text or an uploaded image.
+class: LedgerNote
+fields:
+  ### "text" or "image".
+  type: String
+  text: String?
+  url: String?
+  ### Where the image is stored, needed to delete it later.
+  publicId: String?
+  width: int?
+  height: int?

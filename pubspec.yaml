@@ -1,0 +1,11 @@
+name: _
+publish_to: none
+
+environment:
+  sdk: '^3.12.2'
+
+workspace:
+  - fine_man_client
+  - fine_man_server
+  - fine_man_flutter
+

@@ -1,0 +1,6 @@
+### A line inside an entry. Amounts are in kobo (1/100 naira).
+class: LedgerSubEntry
+fields:
+  id: String
+  name: String
+  amount: int

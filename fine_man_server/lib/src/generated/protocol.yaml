@@ -1,0 +1,23 @@
+emailIdp:
+  - login:
+  - startRegistration:
+  - verifyRegistrationCode:
+  - finishRegistration:
+  - startPasswordReset:
+  - verifyPasswordResetCode:
+  - finishPasswordReset:
+  - hasAccount:
+jwtRefresh:
+  - refreshAccessToken:
+ledger:
+  - events:
+  - list:
+  - saveTables:
+  - rename:
+  - saveColumns:
+  - saveNotes:
+  - saveListOrder:
+  - delete:
+noteImages:
+  - createUpload:
+  - confirmUpload:

@@ -1,0 +1,7 @@
+### A row in a column. [amount] only counts while the entry has no sub-entries.
+class: LedgerEntry
+fields:
+  id: String
+  name: String
+  amount: int
+  subs: List<LedgerSubEntry>

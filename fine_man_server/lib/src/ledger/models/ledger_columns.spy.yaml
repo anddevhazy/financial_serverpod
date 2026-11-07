@@ -1,0 +1,8 @@
+### The five fixed columns every table has.
+class: LedgerColumns
+fields:
+  need: List<LedgerEntry>
+  work: List<LedgerEntry>
+  want: List<LedgerEntry>
+  luxury: List<LedgerEntry>
+  tithe: List<LedgerEntry>

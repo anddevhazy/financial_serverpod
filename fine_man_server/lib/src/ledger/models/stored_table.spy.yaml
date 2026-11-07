@@ -1,0 +1,17 @@
+### A table in the database. The entries, notes and list order always load and
+### save together with their table, so they live inside its row as JSON.
+class: StoredTable
+serverOnly: true
+table: stored_table
+fields:
+  ownerId: UuidValue
+  tableId: String
+  name: String
+  createdAt: DateTime
+  entries: LedgerColumns
+  notes: List<LedgerNote>
+  listOrder: List<String>
+indexes:
+  stored_table_owner_table_idx:
+    fields: ownerId, tableId
+    unique: true

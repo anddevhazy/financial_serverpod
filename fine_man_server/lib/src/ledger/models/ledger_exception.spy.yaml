@@ -1,0 +1,4 @@
+### A request the server refused. [message] can be shown to the user.
+exception: LedgerException
+fields:
+  message: String

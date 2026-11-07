@@ -1,0 +1,7 @@
+### A change to the signed-in user's tables. Exactly one field is set. A stream
+### always opens with [snapshot], so reconnecting catches up on anything missed.
+class: LedgerEvent
+fields:
+  snapshot: List<LedgerTableData>?
+  updated: LedgerTableData?
+  deletedId: String?
